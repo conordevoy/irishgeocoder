@@ -8,6 +8,7 @@ def get_connection():
 	return conn
 
 def search_location(location):
+	# a lot going on trying to clean the data so that I can query the DB
 	location = extract_location(location)
 	county = location[-1].strip()
 	conn = get_connection()

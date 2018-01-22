@@ -8,8 +8,9 @@ app.debug = True
 def app_index():
 	return render_template("index.html")
 
+# GET for placename input
 @app.route('/test/<string:input>', methods = ['GET'])
-def get_test(input):
+def get_places(input):
 	row = search_location(input)
 	if not row:
 		abort(404)

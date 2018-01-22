@@ -6,10 +6,8 @@ def run_all():
 		data = list(csv.reader(my_file))
 	locations = []
 	for row in data:
-		print row,
-		print search_location(row[0])
-		# location = search_location(row[0])
-		# locations.append(location.insert(0, row))
-	# return locations
+		location = search_location(row[0])
+		locations.append(location.insert(0, row))
+	return locations
 
-run_all()
+print run_all()
