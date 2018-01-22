@@ -8,6 +8,10 @@ System: Flask app(Python backend), SQLite, HTTP REST JSON API, Leaflet Map, Java
 
 Use case: Enter in a string in a search bar over a map of Ireland. JS form and field validation. Send HTTP request to server. Server handles request, queries data, and returns coordinates and information to be displayed on the map.
 
+Source Data: Ordnance Survey Ireland, Placenames Gazetteer
+https://data.gov.ie/dataset/townlands-osi-national-placenames-gazetteer2fe62
+https://data.gov.ie/dataset/counties-osi-national-placenames-gazetteerc4185
+
 ## Run App
 #### In terminal:
 1. **Activate venv**:
