@@ -22,9 +22,8 @@ Use case: Enter in a string in a search bar over a map of Ireland. JS form and f
 	```
 2. **Execute**:
   ```
-  python3 ProjectRotharApp.py
+  python2 app.py
   ```
-
 3. **Run through Browser**:
 	```
   localhost:5000/
