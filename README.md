@@ -21,10 +21,10 @@ Use case: Enter in a string in a search bar over a map of Ireland. JS form and f
 	pip install -r requirements.txt
 	```
 2. **Execute**:
-  ```
-  python2 app.py
-  ```
+  	```
+  	python2 app.py
+  	```
 3. **Run through Browser**:
 	```
-  localhost:5000/
-  ```
+  	localhost:5000/
+  	```
